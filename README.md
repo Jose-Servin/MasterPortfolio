@@ -1,6 +1,6 @@
-# Python Automation Projects
+# "The Bot that scrapes, the pipeline that moves, the WebPage that presents"
 
-## Selenium Bot with Data Pipeline
+In one sentence: "A Selenium Bot with an integrated Data Pipeline whose process is presented in a localhost webpage"
 
 Timeline:
 
