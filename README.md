@@ -28,3 +28,26 @@ Project Overview:
     * present the various tools, modules, frameworks, "present your project" section.
     * HTML and CSS - Log Process and Run's.
     * animate Data Pipeline process on localhost webpage.
+
+## Selenium
+
+For this project, we will be using Selenium to automate web-scrapping and keyword searching on [carmax](https://www.carmax.com/).
+
+The Bot's process will be:
+
+1. Arrive to carmax.com
+2. Gather information:
+    * What is my store location?
+3. Enter "Honda" in the search box and select "Honda Accord" from the list of options.
+4. Apply "Year" filter for years from 2019 to 2023.
+5. Gather Information:
+    * Summary sentence of search results.
+    * Number of matches
+6. See if we can view all results or if we need a "more_results?" function that will click on "See More Matches" button if found < number_of_matches.
+7. For each result:
+    * Save Year, Make and Model
+    * Save Price
+    * Save mileage
+    * Save shipping information
+8. Save results into a Pandas DataFrame
+9. Email notification for both failed and completed runs.
