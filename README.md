@@ -32,5 +32,8 @@ Project Overview:
 For this part of the project we will be using various API's and web scrapping proceedures.
 
 1. Selenium or API POST/GET web scrapper on Carmax.com
+
+Here we will be signing into CarMax using user credentials and searching for Honda Accord data.
+
 2. NHTSA API: car rating data extraction
 3. KBB Fair Market Value (if possible)
